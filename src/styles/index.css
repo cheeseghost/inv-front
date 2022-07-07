@@ -1,0 +1,11 @@
+
+@font-face {
+  font-family:"MADETOMMY-Light";
+  src:url("../MADETOMMY-Light/MADE_TOMMY_Light_PERSONAL_USE.eot") format("eot"),url("../MADETOMMY-Light/MADE_TOMMY_Light_PERSONAL_USE.woff") format("woff"),url("../MADETOMMY-Light/MADE_TOMMY_Light_PERSONAL_USE.ttf") format("truetype"),url("../MADETOMMY-Light/MADE_TOMMY_Light_PERSONAL_USE.svg") format("svg");
+  font-weight:normal;
+  font-style:normal;
+}
+
+*{
+  font-family: "MADETOMMY-Light";
+}
