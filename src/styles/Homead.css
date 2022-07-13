@@ -1,0 +1,15 @@
+*{		/* CSS Reset */
+	margin : 0;
+	padding : 0;
+}
+.body{
+    display:flexbox;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F2E6D5;
+
+}
+.fond{
+    position: relative;
+}

@@ -1,0 +1,86 @@
+.cont{
+    position: relative;
+    flex-direction: top;
+    height: 70px;
+    width: 100%;
+}
+.cuadrito{
+    display:flexbox;
+    width: 100vw;
+    height: 100%;
+    background-color: #F2AF4D;
+    border-radius: 5px;
+}
+#logotipo{
+    position: relative;
+    width: 10px;
+    height: 1px;
+    bottom: 14%;
+
+}
+
+.Logo3{
+
+    width: 90px;
+    height: 90px;
+
+}
+#ina{
+    position: relative;
+    color:black;
+    left: 18%;
+    top:20%;
+    text-decoration: none;
+}
+#aa{
+    position: relative;
+    left: 13%;
+    top:20%;
+    height: 40px;
+    width: 40%;
+    border-style: none;
+    outline:none;
+    border-radius: 5px;
+}
+
+#cam{
+    position: relative;
+    left: 70%;
+    height: 40px;
+    width: 10%;
+    bottom: 40%;    
+    
+}
+#campana{
+    height: 40px;
+    width: 40px;  
+
+
+}
+
+#exit{
+    
+    text-decoration: none;
+    color: black;
+    
+}
+
+#botonEx{
+    position:relative;
+    left:90%;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    bottom: 160%;
+    border-style: none;
+}
+#agr{
+    position: relative;
+    left: 82%;
+    bottom: 95%;
+    width: 10%;   
+}
+#agregar{
+    height: 40px;
+    width: 40px;
+}
