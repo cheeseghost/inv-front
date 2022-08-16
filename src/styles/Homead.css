@@ -4,7 +4,6 @@
 }
 .body{
     display:flexbox;
-    position: relative;
     width: 100vw;
     height: 100vh;
     background-color: #F2E6D5;
@@ -12,4 +11,30 @@
 }
 .fond{
     position: relative;
+}
+#barra{
+    width: 100vw;
+    border-bottom: 2px solid black;
+}
+.linkk{
+    text-decoration: none;
+    width: 100%;
+    color: black;
+}
+
+.esp{
+    margin-right: 20px;
+}
+.tab{
+    position: relative;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.tabb{
+    padding: 1% 2%;
+    width: 400px;
+    text-align: center;
+}
+#inv{
+   text-align:right
 }

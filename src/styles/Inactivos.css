@@ -6,6 +6,68 @@
     background-color: #F2E6D5;
 
 }
-.fond{
+.fondd{
     position: relative;
+    text-align: center;
+    width: 100vw;
+    height: 89vh;
+}
+#botontor{
+    background: #EFB197;
+    position: relative;
+    border-radius: 5px;
+    top: 25%;
+    height: 7%;
+    width: 15%;
+    border-style: none;
+    cursor: pointer;
+}
+#botonpan{
+    background: #EFB197;
+    position: relative;
+    border-radius: 5px;
+    top: 25%;
+    height: 7%;
+    width: 15%;
+    border-style: none;
+    cursor: pointer;
+}
+#botontec{
+    background: #EFB197;
+    position: relative;
+    border-radius: 5px;
+    top: 25%;
+    height: 7%;
+    width: 15%;
+    border-style: none;
+    cursor: pointer;
+}
+#botonmou{
+    background: #EFB197;
+    position: relative;
+    border-radius: 5px;
+    top: 25%;
+    height: 7%;
+    width: 15%;
+    border-style: none;
+    cursor: pointer;
+}
+#botondia{
+    background: #EFB197;
+    position: relative;
+    border-radius: 5px;
+    top: 25%;
+    height: 7%;
+    width: 15%;
+    border-style: none;
+    cursor: pointer;
+}
+.marg{
+    margin: 0;
+}
+
+
+td{
+    padding: 10px 20px;
+    width: 50px;
 }

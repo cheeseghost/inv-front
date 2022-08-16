@@ -1,0 +1,10 @@
+.gb{
+    position:relative; 
+    height: 15%;
+    width: 15%;
+
+}
+.form{
+    display: flex;
+}
+
