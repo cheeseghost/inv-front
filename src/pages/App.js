@@ -13,6 +13,15 @@ import Inatec from './Inatec';
 import Inator from './Inator';
 import TorreDetail from "../components/torreDetail";
 import PerfDetail from "../components/perfDetail";
+import PantallaDetail from "../components/pantallaDetail"
+import TecladoDetail from '../components/tecladoDetail';
+import MouseDetail from '../components/mouseDetail';
+import DiademaDetail from '../components/diademaDetail';
+import TorresTot from './torresTot';
+import PantallassTot from './pantallasTot';
+import TecladosTot from './tecladosTot';
+import MousesTot from './mouseTot';
+import DiademasTot from './diademaTot';
 
 import PrivateRoute from"../components/PrivateRoute";
 
@@ -35,7 +44,16 @@ function App() {
       <Route path='/inactivos' element={<Inactivo/>}/>
       <Route path='/createu' element={<Creat/>}/>
       <Route path='/inactivos/inator/:idtor' element={<TorreDetail/>}/>
+      <Route path='/inactivos/inapan/:idpan' element={<PantallaDetail/>}/>
+      <Route path='/inactivos/inatec/:idtec' element={<TecladoDetail/>}/>
+      <Route path='/inactivos/inamou/:idmou' element={<MouseDetail/>}/>
+      <Route path='/inactivos/inadia/:iddia' element={<DiademaDetail/>}/>
       <Route path='/perfil/:idper' element={<PerfDetail/>}/>
+      <Route path='/torres' element={<TorresTot/>}/>
+      <Route path='/pantallas' element={<PantallassTot/>}/>
+      <Route path='/teclados' element={<TecladosTot/>}/>
+      <Route path='/mouses' element={<MousesTot/>}/>
+      <Route path='/diademas' element={<DiademasTot/>}/>
       </Route>
 
       </Routes>

@@ -31,6 +31,7 @@ const Inator=()=>{
         }).then((response) => {
             console.log(response)
         });
+
      };
     const options = [
         { value: 'zinko', label: 'zinko' },

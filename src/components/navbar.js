@@ -45,9 +45,7 @@ const Navbar = () => {
             <div className="cuadrito">
                 <div id="logotipo"><NavLink  to="/homead"><img alt="" src={logo2}  className="Logo3" /></NavLink></div>
 
-                <input id="aa" type="search" placeholder="searching..."/>
-
-                <NavLink id="ina" to="/inactivos">Inactivo</NavLink>
+                <NavLink id="ina" to="/inactivos">Disponibles</NavLink>
 
                 <div id="cam"><NavLink to="/notificaciones"><img alt="" src={campana} id="campana"/></NavLink></div>
 

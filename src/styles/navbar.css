@@ -28,8 +28,8 @@
 #ina{
     position: relative;
     color:black;
-    left: 18%;
-    top:20%;
+    left: 60%;
+    top:35%;
     text-decoration: none;
 }
 #aa{
@@ -48,7 +48,7 @@
     left: 70%;
     height: 40px;
     width: 10%;
-    bottom: 40%;    
+    bottom: 10%;    
     
 }
 #campana{
@@ -63,7 +63,7 @@
     text-decoration: none;
     color: black;
     width: 100%;
-      cursor: pointer;
+    cursor: pointer;
     
     
 }
@@ -74,14 +74,14 @@
     border-radius: 5px;
     height: 40px;
     width: 100px;
-    bottom: 160%;
+    bottom: 130%;
     border-style: none;
     cursor: pointer;
 }
 #agr{
     position: relative;
-    left: 82%;
-    bottom: 95%;
+    left: 80%;
+    bottom: 65%;
     width: 10%;   
 }
 #agregar{

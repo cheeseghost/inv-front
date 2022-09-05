@@ -34,7 +34,6 @@ const Creat=()=>{
         { value: 'DM', label: 'DM' },
         { value: 'HR', label: 'HR' },
         { value: 'SAT', label: 'SAT' },
-        { value: 'CS', label: 'CS' },
         { value: 'SOLAR', label: 'SOLAR' },
         { value: 'BO', label: 'BO' },
 
@@ -66,7 +65,7 @@ const Creat=()=>{
                     <label>grupo:</label>
                     <Select placeholder="grupo" options={options2} onChange={(e) => { setGroup(e.value) }}/>
                     </div>
-                <button onClick={enviar}>enviar</button>
+                <button id="env" onClick={enviar}>enviar</button>
                 </div>
             </div>
         </div>

@@ -16,8 +16,10 @@
     background: #EFB197;
     position: relative;
     border-radius: 5px;
-    top: 25%;
-    height: 7%;
+    top: 100%;
+    margin: 1% 0% 0% 21.7%;
+    padding: 1% 0% 2% 0%;
+    height: 15%;
     width: 15%;
     border-style: none;
     cursor: pointer;
@@ -26,7 +28,9 @@
     background: #EFB197;
     position: relative;
     border-radius: 5px;
-    top: 25%;
+    top: 100.2%;
+    margin: 1% 0% 0% 5.89%;
+    padding: 1% 0% 2% 0%;
     height: 7%;
     width: 15%;
     border-style: none;
@@ -36,8 +40,10 @@
     background: #EFB197;
     position: relative;
     border-radius: 5px;
-    top: 25%;
-    height: 7%;
+    top: 100%;
+    margin: 1% 0% 0% 5.89%;
+    padding: 1% 0% 2% 0%;
+    height: 0%;
     width: 15%;
     border-style: none;
     cursor: pointer;
@@ -46,8 +52,10 @@
     background: #EFB197;
     position: relative;
     border-radius: 5px;
-    top: 25%;
-    height: 7%;
+    top: 52%;
+    margin: 1% 0% 0% 32%;
+    padding: 1% 0% 2% 0%;
+    height: 0%;
     width: 15%;
     border-style: none;
     cursor: pointer;
@@ -56,8 +64,10 @@
     background: #EFB197;
     position: relative;
     border-radius: 5px;
-    top: 25%;
-    height: 7%;
+    top: 52%;
+    margin: 1% 0% 0% 5.89%;
+    padding: 1% 0% 2% 0%;
+    height: 0%;
     width: 15%;
     border-style: none;
     cursor: pointer;
@@ -71,3 +81,18 @@ td{
     padding: 10px 20px;
     width: 50px;
 }
+#titu{
+    position:relative;
+    padding: 4% 0% 0% 45%;
+}
+.botont{
+    background: #EFB197;
+    position:relative;
+    border-radius: 5px;
+    padding: 1% 0% 1% 0%;
+    left: 35%;
+    width: 30%;
+    border-style: none;
+    cursor: pointer;
+}
+

@@ -2,39 +2,88 @@
 	margin : 0;
 	padding : 0;
 }
-.body{
+.bo{
     display:flexbox;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background-color: #F2E6D5;
 
 }
-.fond{
-    position: relative;
-}
+
 #barra{
     width: 100vw;
     border-bottom: 2px solid black;
+    background: #F2E6D5;
 }
 .linkk{
     text-decoration: none;
-    width: 100%;
+    width: 99vw;
     color: black;
 }
 
 .esp{
     margin-right: 20px;
 }
+
 .tab{
-    position: relative;
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-.tabb{
-    padding: 1% 2%;
-    width: 400px;
+    width:100vw;
+    height: auto;
     text-align: center;
 }
+
+.tabb{
+    width:100vw;
+    height: auto;
+    text-align: center;
+}
+
+.tabbb{
+    padding: 1.6% 4%;
+    width: 30%;
+}
+
 #inv{
    text-align:right
+}
+
+#usua{
+    width:20vw;
+    height: auto;
+    text-align: center;
+    padding: 0% 0% 0% 2%;
+}
+
+#ced{
+    width:150vw;
+    height: auto;
+    text-align:center;
+    padding: 0% 0% 0% 10%;
+}
+
+#grup{
+    width:50vw;
+    height: auto;
+    text-align: center;
+    padding: 1% 10% 1% 0%;
+}
+
+#fon{
+    position: relative;
+    background: #F2E6D5;
+    height: 100%;
+}
+
+#fo{
+    background: #F2E6D5;
+    height: 89vh;
+}
+
+.bt{
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    border-style: none;
+    height: 80%; 
+    left: 1%;
+
 }

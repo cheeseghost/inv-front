@@ -1,0 +1,48 @@
+.po{
+    display:flex;
+    width: 60vw;
+    height: 6vh;
+}
+.but{
+    border-radius: 5px;
+    cursor: pointer;
+    border-style: none;
+    height: 80%; 
+}
+.pp{
+    align-items: center;
+    width: 20%;
+    padding: 0.5% 1% 0% 35%;
+}
+.ce{
+    padding: 3% 0% 3% 30%;
+    width: 35%;
+}
+.margin-left{
+    margin-right: 10%;
+}
+#pu{
+    padding: 0% 1% 1% 45%;
+}
+.gba{
+    padding: 0% 1% 0% 1%;
+}
+.bod{
+    display:flexbox;
+    width: 100vw;
+    height: 105vh;
+    background-color: #F2E6D5;
+
+}
+
+#guard{
+    background: #EFB197;
+    position:relative;
+    border-radius: 5px;
+    padding: 1% 0% 1% 0%;
+    left: 40%;
+    margin-top: 1%;
+    width: 15%;
+    border-style: none;
+    cursor: pointer;
+}
