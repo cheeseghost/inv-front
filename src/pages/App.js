@@ -24,6 +24,7 @@ import MousesTot from './mouseTot';
 import DiademasTot from './diademaTot';
 
 import PrivateRoute from"../components/PrivateRoute";
+import Routee from '../components/Routee';
 
 function App() {
   return (

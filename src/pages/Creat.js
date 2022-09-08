@@ -45,10 +45,10 @@ const Creat=()=>{
                 <div className="bordes">
                     <div className="cent" >
                     <label>usuario:</label>
-                    <input onChange={(e) => { setUser(e.target.value) }}/>
+                    <input id="inpcrea" onChange={(e) => { setUser(e.target.value) }}/>
                     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
                     <label>contraseña:</label>
-                    <input  onChange={(e) => { setPass(e.target.value) }}/>
+                    <input id="inpcrea"  onChange={(e) => { setPass(e.target.value) }}/>
                     </div>
                     <div className="pos">
                     <label>tipo de usuario:</label>
@@ -56,10 +56,10 @@ const Creat=()=>{
                     </div>
                     <div className="cent" >
                     <label>nombre:</label>
-                    <input onChange={(e) => { setNam(e.target.value) }}/>
+                    <input id="inpcrea" onChange={(e) => { setNam(e.target.value) }}/>
                     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
                     <label>cedula:</label>
-                    <input type="number" onChange={(e) => { setCed(e.target.value) }}/>
+                    <input id="inpcrea" type="number" onChange={(e) => { setCed(e.target.value) }}/>
                     </div>
                     <div className="pos">
                     <label>grupo:</label>

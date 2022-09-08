@@ -19,12 +19,16 @@ const Inadia=()=>{
     return(
         <div className="body">
             <Navbar/>
-            <div className="fond">             
+            <div className="fond">
+            <div className="inaeti">            
                 <label>etiqueta:</label>
-                <input placeholder="etiqueta" onChange={(e) => { setEtiqueta(e.target.value) }}/>
+                <input className="inatica" placeholder="etiqueta" onChange={(e) => { setEtiqueta(e.target.value) }}/>
+                </div>
+                <div className="inaeti">
                 <label>marca:</label>
-                <input placeholder="marca" onChange={(e) => { setMarc(e.target.value) }}/>
-                <div><button onClick={enviar}>enviar</button></div>
+                <input className="inamarc" placeholder="marca" onChange={(e) => { setMarc(e.target.value) }}/>
+                </div>
+                <button className="inana" onClick={enviar}>enviar</button>
             </div>
         </div>
     )

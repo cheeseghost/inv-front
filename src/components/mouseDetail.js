@@ -6,20 +6,20 @@ import Select from "react-select"
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-const MouseDetail=()=>{
+const MouseDetail = () => {
     const { idmou } = useParams()
-    const[etiqueta,setEtiqueta]=useState("")
-    const[marc,setMarc]=useState("")
-    const[perm,setPerm]=useState("")
+    const [etiqueta, setEtiqueta] = useState("")
+    const [marc, setMarc] = useState("")
+    const [perm, setPerm] = useState("")
 
-    const actualizar=()=>{
-        Axios.put("http://localhost:3000/mouses/"+idmou,{
-            eti_mou:etiqueta,
-            per_mou:perm,
-            mar_mou:marc,
-        }).then((response)=>{
+    const actualizar = () => {
+        Axios.put("http://localhost:3000/mouses/" + idmou, {
+            eti_mou: etiqueta,
+            per_mou: perm,
+            mar_mou: marc,
+        }).then((response) => {
             console.log(response)
-            })
+        })
     }
     useEffect(() => {
         Axios.get("http://localhost:3000/mouses/" + idmou).then((response) => {
@@ -35,27 +35,27 @@ const MouseDetail=()=>{
         { value: 'alliance', label: 'alliance' },
         { value: 'milenium', label: 'milenium' },
     ]
-    return(
+    return (
         <div className="body">
-        <Navbar />
-        <div className="fond">
-        <div className="la">
-            <label>etiqueta:</label>
-            <input value={etiqueta} onChange={(e) => { setEtiqueta(e.target.value) }} />
-            </div>
-            <div className="form">
-                <label className="la">pertenece:</label>
-                <Select className="gb aco" placeholder={perm} options={options} onChange={(e) => { setPerm(e.value) }} />
-            </div>
-            <div className="la">
-            <label>marca:</label>
-            <input value={marc} onChange={(e) => { setMarc(e.target.value) }} />
-            </div>
-            <div>
-            <button onClick={actualizar}>guardar</button>
+            <Navbar />
+            <div className="fond">
+                <div className="inaeti">
+                    <label>etiqueta:</label>
+                    <input className="inatica" value={etiqueta} onChange={(e) => { setEtiqueta(e.target.value) }} />
+                </div>
+                <div className="inaeti form">
+                    <label className="la">pertenece:</label>
+                    <Select className="gb" placeholder={perm} options={options} onChange={(e) => { setPerm(e.value) }} />
+                </div>
+                <div className="inaeti">
+                    <label>marca:</label>
+                    <input className="inamarc" value={marc} onChange={(e) => { setMarc(e.target.value) }} />
+                </div>
+                <div>
+                    <button className="inana" onClick={actualizar}>guardar</button>
+                </div>
             </div>
         </div>
-    </div>
     )
 
 }

@@ -1,0 +1,32 @@
+.inana{
+    background: #EFB197;
+    position:relative;
+    border-radius: 5px;
+    padding: 0.8% 0% 0.8% 0%;
+    left: 40%;
+    margin-top: 1%;
+    width: 15%;
+    border-style: none;
+    cursor: pointer;
+}
+.inaeti{
+    padding: 2% 0% 1% 40%;
+}
+
+.inatica{
+    position: relative;
+    left: 1%;
+    top: -1%;
+    height: 4vh;
+    border-radius: 3px;
+    border-style: none;
+}
+
+.inamarc{
+    position: relative;
+    left: 1%;
+    top: -1%;
+    height: 4vh;
+    border-radius: 3px;
+    border-style: none;  
+}

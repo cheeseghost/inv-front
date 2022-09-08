@@ -25,12 +25,11 @@ const Inactivo = () => {
     const [modalIsOpen4, setIsOpen4] = useState(false);
     const [modalIsOpen5, setIsOpen5] = useState(false);
     const openModal = () => {
-        Axios.get("http://localhost:3002/torres", {
+        Axios.get("http://localhost:3000/torres", {
         }).then((response) => {
             console.log(response)
             const resp = response.data.torre
             const listItems = resp.map((r) =>
-            
                 <div key={r.torre.id_tor}>
                     <table>
                     <tbody>
@@ -51,7 +50,7 @@ const Inactivo = () => {
         setIsOpen1(true);
     }
     const openModal2 = () => {
-        Axios.get("http://localhost:3002/pantallas", {
+        Axios.get("http://localhost:3000/pantallas", {
         }).then((response) => {
             console.log(response)
             const resp = response.data.pantalla
@@ -73,7 +72,7 @@ const Inactivo = () => {
         setIsOpen2(true);
     }
     const openModal3 = () => {
-        Axios.get("http://localhost:3002/teclados", {
+        Axios.get("http://localhost:3000/teclados", {
         }).then((response) => {
             console.log(response)
             const resp = response.data.teclado
@@ -96,7 +95,7 @@ const Inactivo = () => {
     }
 
     const openModal4 = () => {
-        Axios.get("http://localhost:3002/mouses", {
+        Axios.get("http://localhost:3000/mouses", {
         }).then((response) => {
             console.log(response)
             const resp = response.data.mouse
@@ -122,7 +121,7 @@ const Inactivo = () => {
         setIsOpen4(true);
     }
     const openModal5 = () => {
-        Axios.get("http://localhost:3002/diademas", {
+        Axios.get("http://localhost:3000/diademas", {
         }).then((response) => {
             console.log(response)
             const resp = response.data.diadema

@@ -7,4 +7,46 @@
 .form{
     display: flex;
 }
+.padd{
+    padding: 3% 0% 3% 3%;
+}
+.perteneece{
+    padding: 0% 0% 0% 18%;
+}
+.maarcaa{
+    padding: 0% 0% 0% 12%;
+}
+.proccc{
+    padding: 0% 0% 0% 17%;
+}
+.siso{
+    padding: 0% 0% 0% 13%;
+}
+.catal{
+    padding: 0% 0% 0% 5%;
+}
+.almac{
+    padding: 0% 0% 0% 5%;
+}
+.etitor{
+    position: relative;
+    left: 1%;
+    top: -1%;
+    height: 4vh;
+    border-radius: 3px;
+    border-style: none;
+}
+
+.inator{
+    background: #EFB197;
+    position:relative;
+    border-radius: 5px;
+    padding: 0.8% 0% 0.8% 0%;
+    left: 40%;
+    margin-top: 1%;
+    width: 15%;
+    border-style: none;
+    cursor: pointer;
+}
+
 

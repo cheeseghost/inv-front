@@ -3,9 +3,10 @@ import { Navigate, Outlet } from 'react-router-dom';
 
 
 const Routee = ({ component: Component, ...rest }) => {
-  var auth = cookies.getItem('userId');
+  let logg = localStorage.getItem('logg');
+  let rol = localStorage.getItem('rol');
 
-  return !auth ? <Outlet /> : <Navigate to="/home" />;
+  return (logg !== "yes" && rol !== "admin") ? <Outlet /> : <Navigate to="/homead" />;
 };
 
 

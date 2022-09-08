@@ -19,20 +19,20 @@ const TorreDetail = () => {
     const [cantalm, setCantalm] = useState("");
     const [alm, setAlm] = useState("");
 
-    const actualizar=()=>{
-        Axios.put("http://localhost:3000/torres/"+idtor,{
-            eti_tor:etiqueta,
-            per_tor:perm,
-            mar_tor:marc,
-            proc_tor:proc,
-            ram_tor:cantrma,
-            so_tor:so,
-            ddtip_tor:tipal,
-            ddcant_tor:cantalm,
-            dd_tor:alm
-        }).then((response)=>{
+    const actualizar = () => {
+        Axios.put("http://localhost:3000/torres/" + idtor, {
+            eti_tor: etiqueta,
+            per_tor: perm,
+            mar_tor: marc,
+            proc_tor: proc,
+            ram_tor: cantrma,
+            so_tor: so,
+            ddtip_tor: tipal,
+            ddcant_tor: cantalm,
+            dd_tor: alm
+        }).then((response) => {
             console.log(response)
-            })
+        })
     }
     useEffect(() => {
         Axios.get("http://localhost:3000/torres/" + idtor).then((response) => {
@@ -66,39 +66,31 @@ const TorreDetail = () => {
         <div className="body">
             <Navbar />
             <div className="fond">
-                <div className="eti">
-                <label>etiqueta:</label>
-                <input className="l" value={etiqueta} onChange={(e) => { setEtiqueta(e.target.value) }} />
+                <div className="form padd">
+                    <label>etiqueta:</label>
+                    <input className="etitor" value={etiqueta} onChange={(e) => { setEtiqueta(e.target.value) }} />
+                    <label className="perteneece">pertenece:</label>
+                    <Select className="gb" placeholder={perm} options={options} onChange={(e) => { setPerm(e.value) }} />
+                    <label className="maarcaa">marca:</label>
+                    <input className="etitor" value={marc} onChange={(e) => { setMarc(e.target.value) }} />
                 </div>
-                <div className="form">
-                    <label className="la">pertenece:</label>
-                    <Select className="gb aco" placeholder={perm} options={options} onChange={(e) => { setPerm(e.value) }} />
+                <div className="form padd">
+                    <label>procesador:</label>
+                    <input className="etitor" value={proc} onChange={(e) => { setProc(e.target.value) }} />
+                    <label className="proccc">cantidad ram:</label>
+                    <input className="etitor" type="number" value={cantrma} onChange={(e) => { setCantram(e.target.value) }} />
+                    <label className="siso">sistema operativo:</label>
+                    <input className="etitor" value={so} onChange={(e) => { setSo(e.target.value) }} />
                 </div>
-                <div className="la" >
-                <label>marca:</label>
-                <input  className="marc l" value={marc} onChange={(e) => { setMarc(e.target.value) }} />
-                <label>procesador:</label>
-                <input className="l" value={proc} onChange={(e) => { setProc(e.target.value) }} />
+                <div className="form padd">
+                    <label>tipo de almacenamiento:</label>
+                    <Select className="gb" placeholder={tipal} options={options2} onChange={(e) => { setTipal(e.value) }} />
+                    <label className="catal">cantidad almacenamiento:</label>
+                    <input className="etitor" type="number" value={cantalm} onChange={(e) => { setCantalm(e.target.value) }} />
+                    <label className="almac">almacenamiento:</label>
+                    <Select className="gb" placeholder={alm} options={options3} onChange={(e) => { setAlm(e.value) }} />
                 </div>
-                <div className="la" >
-                <label>cantidad ram:</label>
-                <input className="l" type="number" value={cantrma} onChange={(e) => { setCantram(e.target.value) }} />
-                <label>sistema operativo:</label>
-                <input className="l" value={so} onChange={(e) => { setSo(e.target.value) }} />
-                </div>
-                <div className="form">
-                    <label className="la">tipo de almacenamiento:</label>
-                    <Select className="gb aco" placeholder={tipal} options={options2} onChange={(e) => { setTipal(e.value) }} />
-                </div>
-                <div className="la">
-                <label>cantidad almacenamiento:</label>
-                <input className="l" type="number" value={cantalm} onChange={(e) => { setCantalm(e.target.value) }} />
-                </div>
-                <div className="form">
-                    <label className="la">tamaño:</label>
-                    <Select className="gb aco" placeholder={alm} options={options3} onChange={(e) => { setAlm(e.value) }} />
-                </div>
-                <button onClick={actualizar}>guardar</button>
+                <button className="inator" onClick={actualizar}>guardar</button>
             </div>
         </div>
     );
